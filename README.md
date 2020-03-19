@@ -5,6 +5,6 @@ The dataset in this repository contains X-ray images of the lungs of individuals
 
 The CNN utilizes a VGG16 network, pre-trained on ImageNet, as the base model. Keras and TensorFlow were utilized for this project. 
 
-Unfortunately, due to a lack of COVID-19 X-ray images, the size of the dataset is rather small. However, since I utilized transfer learning techniques, the results were decent (about 85% accuracy).
+Unfortunately, due to a lack of COVID-19 X-ray images, the size of the dataset is rather small. However, since transfer learning techniques were utilized, the results were decent (about 85% accuracy).
 
 This project is a great example of the effectiveness of transfer learning when data is scarce.
