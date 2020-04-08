@@ -22,9 +22,9 @@
 
 ### Results
 
-   After training the model for 30 epochs, it achieved an accuracy of approximately 85%. A large problem associated with the training process was overfitting, which could easily be counteracted by increasing the number of images. After using a classification report, the model had a weighted f-1 score of 0.87. Plots of model loss and model accuracy are shown below.
+   After training the model for 30 epochs, it achieved an accuracy of 92%. A large problem associated with the training process was overfitting, which could easily be counteracted by increasing the number of images. After using a classification report, the model had a weighted f-1 score of 0.92.
 
-  To highlight the effectiveness of transfer learning, I used a VGG16 without pretrained weights. After training for 30 epochs the model achieves an accuracy of approximately 42%, and a weighted f-1 score of 0.30. Although both models had the same architecture, they had very different outcomes. This is due purely to the efficacy of transfer learning.
+  To highlight the effectiveness of transfer learning, I used a VGG16 without pretrained weights. The training process ended after 7 epochs due to the use of an early stopping callback. The model achieved an accuracy of approximately 54%, and a weighted f-1 score of 0.38. Although both models had the same architecture, they had very different outcomes. This is due purely to the efficacy of transfer learning.
 
 ### Conclusion
 
